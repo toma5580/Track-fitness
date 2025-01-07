@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="track_fitness.FXMLController">
+   <children>
+      <Text layoutX="82.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Application Name : " wrappingWidth="142.1214599609375">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="224.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Track Fitness">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="161.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="186.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Id :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="484.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Version : 1.0.0.1" />
+      <Text layoutX="225.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pradumya ">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="224.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2013517531">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

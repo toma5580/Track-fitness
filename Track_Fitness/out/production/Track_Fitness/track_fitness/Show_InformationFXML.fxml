@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="466.0" prefWidth="802.0" spacing="50.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="track_fitness.Show_InformationFXMLController">
+   <children>
+      <TableView fx:id="DTable" nodeOrientation="LEFT_TO_RIGHT" prefHeight="464.0" prefWidth="642.0">
+        <columns>
+          <TableColumn fx:id="Time" prefWidth="148.00000607967377" text="Time" />
+          <TableColumn fx:id="Date" prefWidth="217.5999755859375" text="Date" />
+            <TableColumn fx:id="Weight" minWidth="0.0" prefWidth="214.39999389648438" text="Weight (KG)" />
+            <TableColumn fx:id="bp" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefWidth="217.5999755859375" text="Blood Pressure" />
+        </columns>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </TableView>
+   </children>
+</VBox>

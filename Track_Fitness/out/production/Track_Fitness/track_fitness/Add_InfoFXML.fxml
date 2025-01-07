@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER_LEFT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="384.0" prefWidth="631.0" spacing="15.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="track_fitness.Add_InfoFXMLController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="36.0" prefWidth="600.0" spacing="23.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Time">
+               <HBox.margin>
+                  <Insets left="-26.0" />
+               </HBox.margin></Text>
+            <TextField fx:id="tF" prefHeight="26.0" prefWidth="206.0" promptText="Example : HH:MM:SS">
+               <HBox.margin>
+                  <Insets left="24.0" right="-9.0" />
+               </HBox.margin></TextField>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="36.0" prefWidth="600.0" spacing="23.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Date">
+               <HBox.margin>
+                  <Insets right="-9.0" />
+               </HBox.margin></Text>
+            <DatePicker fx:id="invalue" prefHeight="26.0" prefWidth="215.0" promptText="Example : DD/MM/YYYY">
+               <HBox.margin>
+                  <Insets left="26.0" />
+               </HBox.margin>
+            </DatePicker>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="36.0" prefWidth="600.0" spacing="23.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Weight ">
+               <HBox.margin>
+                  <Insets left="-110.0" right="4.0" />
+               </HBox.margin>
+            </Text>
+            <TextField fx:id="inWeight" prefHeight="30.0" prefWidth="98.0" promptText="Weight (KG)">
+               <HBox.margin>
+                  <Insets left="15.0" right="21.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="36.0" prefWidth="600.0" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Blood pressure : ">
+               <HBox.margin>
+                  <Insets left="-80.0" />
+               </HBox.margin>
+            </Text>
+            <TextField fx:id="inSbp" prefHeight="30.0" prefWidth="73.0" promptText="Systolic">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets left="13.0" right="2.0" />
+               </HBox.margin>
+            </TextField>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="/" />
+            <TextField fx:id="inDbp" prefHeight="30.0" prefWidth="71.0" promptText="Diastolic">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TextField>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="36.0" prefWidth="600.0" spacing="23.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Text fx:id="info" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="253.60003662109375" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="36.0" prefWidth="600.0" spacing="23.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#DoSave" text="Save" />
+            <Button mnemonicParsing="false" onAction="#DoReset" text="Reset" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</VBox>
